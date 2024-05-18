@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agentes</title>
+    <link rel="shortcut icon" href="imagenes/Logo.png">
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
+
+    <script src="bootstrap-4.0.0-dist/js/jquery-3.6.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/cssIndex.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <script src="javascript/animacionTexto.js" defer></script>
+    <script src="javascript/animacionTextoMovil.js" defer></script>
+    <script src="javascript/scroll.js"></script>
+    <script src="javascript/videosAgentesJS.js"></script>
+    <script src="javascript/audiosPersonajes.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+
+<body onLoad="scrollToPorcentaje(32.5)">
+    <nav class="navbar navbar-expand-md navbar-light bg-dark sticky-top">
+        <a class="navbar-brand" href="index.html"><img class="imagenLogoRoja" src="imagenes/Logo.png" alt=""></a>
+        <button class="navbar-toggler bg-danger" type="button" data-toggle="collapse" data-target="#nav1"
+            aria-controls="nav1" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav1">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item m-2">
+                    <a class="nav-link text-white hvr-underline-from-center" href="agentes.html">
+                        Agentes
+                    </a>
+                </li>
+                <li class="nav-item m-2">
+                    <a class="nav-link text-white hvr-underline-from-center" href="armas.html">
+                        Armas
+                    </a>
+                </li>
+                <li class="nav-item m-2">
+                    <a class="nav-link text-white hvr-underline-from-center" href="formulario.html">
+                        Formulario
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid container-expand-md alturaDivPagAgentes d-none d-sm-block">
+        <div class="row pt-5">
+            <div class="col d-flex justify-content-center paddingFuera ">
+                <h1 class="utilizarFuente letrasBlancasGenerales h1AGENTES margenFuera" id="texto">ELIGE A UN AGENTE
+                </h1>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row rowAgentes w-100 d-flex align-items-end">
+                <div class="col-md-1 col-3 border border-light paddingFuera hvr-reveal">
+                    <a href="astra.html"><img src="imagenes/Astra.webp" class="iconoAgentes "></a>
+                </div>
+
+                <div class="col-md-1  col-3 col-3 border border-light h-50 hvr-reveal paddingFuera">
+                    <a href="breach.html"><img src="imagenes/breach.webp" class="iconoAgentes"></a>
+                </div>
+
+                <div class="col-md-1  col-3 col-3 border border-light  hvr-reveal paddingFuera h-50">
+                    <a href="brimstone.html"><img src="imagenes/brimstone.webp" class="iconoAgentes"></a>
+                </div>
+
+                <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                    <a href="chamber.html"><img src="imagenes/chamber.webp" class="iconoAgentes"></a>
+                </div>
+
+                <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                    <a href="cypher.html"><img src="imagenes/cypher.webp" class="iconoAgentes"></a>
+                </div>
+
+                <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                    <a href="fade.html"><img src="imagenes/fade.webp" class="iconoAgentes"></a>
+                </div>
+
+                <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                    <a href="gekko.html"><img src="imagenes/gekko.webp" class="iconoAgentes"></a>
+                </div>
+
+                <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                    <a href="harbor.html"><img src="imagenes/harbor.webp" class="iconoAgentes"></a>
+                </div>
+
+                <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                    <a href="jett.html"><img src="imagenes/jett.webp" class="iconoAgentes"></a>
+                </div>
+
+                <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                    <a href="kayo.html"><img src="imagenes/kayo.webp" class="iconoAgentes"></a>
+                </div>
+
+                <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                    <a href="killjoy.html"><img src="imagenes/killjoy.webp" class="iconoAgentes"></a>
+                </div>
+
+                <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                    <a href="neon.html"><img src="imagenes/Neon.webp" class="iconoAgentes"></a>
+                </div>
+            </div>
+
+
+            <div class="row rowAgentes w-100 d-flex align-items-start">
+                <div class="col-md-1 col-3 border border-light h-50 hvr-reveal paddingFuera">
+                    <a href="omen.html"><img src="imagenes/omen.webp" class="iconoAgentes"></a>
+                </div>
+
+                <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                    <a href="phoenix.html"><img src="imagenes/phoenix.webp" class="iconoAgentes"></a>
+                </div>
+
+                <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                    <a href="raze.html"><img src="imagenes/raze.webp" class="iconoAgentes"></a>
+                </div>
+
+                <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                    <a href="reyna.html"><img src="imagenes/reyna.webp" class="iconoAgentes"></a>
+                </div>
+
+                <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                    <a href="sage.html"><img src="imagenes/sage.webp" class="iconoAgentes"></a>
+                </div>
+
+                <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                    <a href="skye.html"><img src="imagenes/skye.webp" class="iconoAgentes"></a>
+                </div>
+
+                <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                    <a href="sova.html"><img src="imagenes/sova.webp" class="iconoAgentes"></a>
+                </div>
+
+                <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                    <a href="viper.html"><img src="imagenes/viper.webp" class="iconoAgentes"></a>
+                </div>
+
+                <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                    <a href="yoru.html"><img src="imagenes/yoru_valorant_icon_3284.webp" class="iconoAgentes"></a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--INICIO DIV MOVIL--><!--INICIO DIV MOVIL--><!--INICIO DIV MOVIL--><!--INICIO DIV MOVIL--><!--INICIO DIV MOVIL--><!--INICIO DIV MOVIL-->
+    <div class="container-fluid container-expand-md alturaDivPagAgentes d-block d-sm-none">
+        <div class="row">
+            <div class="col d-flex justify-content-center paddingFuera">
+                <h1 class="utilizarFuente letrasBlancasGenerales h1AGENTES margenFuera" id="textoMovilAgentes">ELIGE A
+                    UN AGENTE</h1>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row rowAgentes w-100 d-flex align-items-end">
+                <div class="col-md-1 col-3 border border-light paddingFuera hvr-reveal">
+                    <a href="astra.html"><img src="imagenes/Astra.webp" class="iconoAgentes "></a>
+                </div>
+
+                <div class="col-md-1  col-3 col-3 border border-light h-50 hvr-reveal paddingFuera">
+                    <a href="breach.html"><img src="imagenes/breach.webp" class="iconoAgentes"></a>
+                </div>
+
+                <div class="col-md-1  col-3 col-3 border border-light  hvr-reveal paddingFuera h-50">
+                    <a href="brimstone.html"><img src="imagenes/brimstone.webp" class="iconoAgentes"></a>
+                </div>
+
+                <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                    <a href="chamber.html"><img src="imagenes/chamber.webp" class="iconoAgentes"></a>
+                </div>
+
+                <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                    <a href="cypher.html"><img src="imagenes/cypher.webp" class="iconoAgentes"></a>
+                </div>
+
+                <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                    <a href="fade.html"><img src="imagenes/fade.webp" class="iconoAgentes"></a>
+                </div>
+
+                <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                    <a href="gekko.html"><img src="imagenes/gekko.webp" class="iconoAgentes"></a>
+                </div>
+
+                <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                    <a href="harbor.html"><img src="imagenes/harbor.webp" class="iconoAgentes"></a>
+                </div>
+            </div>
+
+
+            <div class="row rowAgentes w-100 d-flex align-items-start">
+                <div class="col-md-1 col-3 border border-light h-50 hvr-reveal paddingFuera">
+                    <a href="omen.html"><img src="imagenes/omen.webp" class="iconoAgentes"></a>
+                </div>
+
+                <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                    <a href="phoenix.html"><img src="imagenes/phoenix.webp" class="iconoAgentes"></a>
+                </div>
+
+                <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                    <a href="raze.html"><img src="imagenes/raze.webp" class="iconoAgentes"></a>
+                </div>
+
+                <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                    <a href="reyna.html"><img src="imagenes/reyna.webp" class="iconoAgentes"></a>
+                </div>
+
+                <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                    <a href="sage.html"><img src="imagenes/sage.webp" class="iconoAgentes"></a>
+                </div>
+
+                <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                    <a href="skye.html"><img src="imagenes/skye.webp" class="iconoAgentes"></a>
+                </div>
+
+                <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                    <a href="sova.html"><img src="imagenes/sova.webp" class="iconoAgentes"></a>
+                </div>
+
+                <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                    <a href="viper.html"><img src="imagenes/viper.webp" class="iconoAgentes"></a>
+                </div>
+
+                <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                    <a href="yoru.html"><img src="imagenes/yoru_valorant_icon_3284.webp" class="iconoAgentes"></a>
+                </div>
+                <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                    <a href="jett.html"><img src="imagenes/jett.webp" class="iconoAgentes"></a>
+                </div>
+                <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                    <a href="kayo.html"><img src="imagenes/kayo.webp" class="iconoAgentes"></a>
+                </div>
+                <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                    <a href="killjoy.html"><img src="imagenes/killjoy.webp" class="iconoAgentes"></a>
+                </div>
+                <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                    <a href="neon.html"><img src="imagenes/Neon.webp" class="iconoAgentes"></a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!--FIN DIV MOVIL--><!--FIN DIV MOVIL--><!--FIN DIV MOVIL--><!--FIN DIV MOVIL-->
+
+    <div class="container-fluid fondoDivAgente d-none d-sm-block">
+        <div class="row">
+            <div class="col-md-6 d-flex justify-content-center">
+                <img src="imagenes/astraCompleta.png" class="tamanoImagenAgente pt-4" alt="">
+            </div>
+            <div class="col-md-6">
+                <div class="row d-flex justify-content-center align-items-end h-25">
+                    <h1 class="utilizarFuente letrasBlancasGenerales tamanoFuenteAgentes margenFuera pl-4">ASTRA</h1>
+                </div>
+                <div class="row  d-flex justify-content-center align-items-start ">
+                    <h1 class="utilizarFuente letrasBlancasGenerales tamanoTipoAgentes pr-1">CONTROLADOR</h1>
+                    <img class="tamanoImagenTipo " src="imagenes/Controller.png" alt="">
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="row d-flex justify-content-center tamanoRowTextoAgente pl-5 pt-2">
+                        <div class="col-md-12 pl-5">
+                            <p class="utilizarFuente letrasBlancasGenerales tamanoFuentePAgentes pruebaFuente">Astra, la
+                                agente ghanesa, controla las energías del cosmos para dar forma al campo de batalla a su
+                                antojo. Con pleno dominio de su forma astral y un gran talento para la anticipación
+                                estratégica, siempre va eones por delante de los movimientos de sus enemigos.</p>
+                            <button class="fondoDivAgente quitarBordesBoton"
+                                onmousedown="elegirSonido('audios/Voz de Astra en Español (España) _ VALORANT (Episodio 4, Acto II) (1) (mp3cut.net).mp3')"><i
+                                    class="bi-volume-up letrasBlancasGenerales icono"></i></iconify-icon></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tamanoDividir">
+
+
+        </div>
+        <div class="row">
+            <div class="col-md-6  d-flex justify-content-center">
+                <div class="row  TamanoTextoHabilidades d-flex align-items-center justify-content-center">
+                    <h1 class="utilizarFuente letrasBlancasGenerales  margenFuera tamano pl-4 pb-3">HABILIDADES
+                        ESPECIALES</h1>
+                    <div class="row w-75 d-flex justify-content-between">
+                        <button
+                            onClick="videos('videos/RIFT21_Astra_Ability_Q.mp4','Coloca estrellas en Forma astral (X). ACTIVA una estrella para detonar un Pulso nova. El Pulso nova se carga brevemente y explota, lo que aturde a todos los jugadores en la zona.','Q - Pulso nova','textoMorado')"
+                            class="btn fondoDivAgente border-light hvr-shutter-out-horizontalASTRA"><img
+                                src="imagenes/habilidadesAstra/Astra_Ability_Icons_Q_NovaPulsev2.png"
+                                class="tamanoImagenHabilidad" alt=""></button>
+                        <button
+                            onClick="videos('videos/RIFT21_Astra_Ability_E_F.mp4','Coloca estrellas en Forma astral (X). ACTIVA una estrella para transformarla en una Nebulosa (humo). Usa (F) en una estrella para disiparla, lo que recupera la estrella para poder volver a colocarla tras un tiempo. Disipar una estrella crea una breve Nebulosa falsa en su ubicación antes de recuperarla.','E - Nebulosa','textoMorado')"
+                            class="btn fondoDivAgente border-light hvr-shutter-out-horizontalASTRA"><img
+                                src="imagenes/habilidadesAstra/Astra_Ability_Icons_E_Nebulav2.png"
+                                class="tamanoImagenHabilidad" alt=""></button>
+                        <button
+                            onClick="videos('videos/RIFT21_Astra_Ability_C.mp4', 'Coloca estrellas en Forma astral (X). ACTIVA una estrella para crear un Pozo gravitatorio. Atrae hacia el centro a todos los jugadores en la zona antes de que explote, lo que causa que todos los jugadores atrapados en el interior se vuelvan frágiles.','C - Pozo gravitatorio','textoMorado')"
+                            class="btn fondoDivAgente border-light hvr-shutter-out-horizontalASTRA"><img
+                                src="imagenes/habilidadesAstra/Astra_Ability_Icons_C_GravityWellv2.png"
+                                class="tamanoImagenHabilidad" alt=""></button>
+                        <button
+                            onClick="videos('videos/RIFT21_Astra_Ability_ULT.mp4','ACTIVA (X) para entrar en Forma astral y poder colocar estrellas con el DISPARO PRINCIPAL. Las estrellas se pueden reactivar más tarde para transformarlas en un Pulso nova, una Nebulosa o un Pozo gravitatorio. Cuando Separación cósmica está cargada, usa el DISPARO SECUNDARIO en Forma astral para empezar a apuntar y, a continuación, el DISPARO PRINCIPAL para elegir dos ubicaciones. Se creará una Separación cósmica infinita que conecte los dos puntos. Separación cósmica bloquea las balas y atenúa en gran medida los sonidos.','X - Forma astral / Separación cósmica','textoMorado')"
+                            class="btn fondoDivAgente border-light hvr-shutter-out-horizontalASTRA"><img
+                                src="imagenes/habilidadesAstra/Astra_Ability_Icons_X_CosmicDividev2.png"
+                                class="tamanoImagenHabilidad" alt=""></button>
+                    </div>
+                    <div id="textoHabilidades">
+                        <h2 class="pruebaFuente textoMorado">Q - Pulso nova</h2>
+                        <p class="utilizarFuente letrasBlancasGenerales tamanoFuentePAgentes pruebaFuente pb-5">Coloca
+                            estrellas en Forma astral (X). ACTIVA una estrella para detonar un Pulso nova. El Pulso nova
+                            se carga brevemente y explota, lo que aturde a todos los jugadores en la zona.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6  d-flex justify-content-center pb-4" id="videosHabilidades">
+                <video src="videos/RIFT21_Astra_Ability_Q.mp4" class="tamanoVideoHabilidades" autoplay loop
+                    muted></video>
+            </div>
+        </div>
+    </div>
+
+
+    <!--INICIO DIV MOVIL--><!--INICIO DIV MOVIL--><!--INICIO DIV MOVIL--><!--INICIO DIV MOVIL--><!--INICIO DIV MOVIL--><!--INICIO DIV MOVIL-->
+    <div class="container-fluid fondoDivAgente d-block d-sm-none">
+        <div>
+            <div class="col-md-6 d-flex justify-content-center">
+                <img src="imagenes/astraCompleta.png" class="tamanoImagenAgente pt-4" alt="">
+            </div>
+            <div class="col-md-6">
+                <div class="row d-flex justify-content-center align-items-end h-25">
+                    <h1 class="utilizarFuente letrasBlancasGenerales tamanoFuenteAgentes margenFuera pr-5">ASTRA</h1>
+                </div>
+                <div class="row  d-flex  align-items-start pl-4 ">
+                    <h1 class="utilizarFuente letrasBlancasGenerales tamanoTipoAgentes pt-2">CONTROLADOR</h1>
+                    <img class="tamanoImagenTipo " src="imagenes/Controller.png" alt="">
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="row d-flex justify-content-center tamanoRowTextoAgente pt-2">
+                        <div class="col-12">
+                            <p class="utilizarFuente letrasBlancasGenerales tamanoFuentePAgentes pruebaFuente">Astra, la
+                                agente ghanesa, controla las energías del cosmos para dar forma al campo de batalla a su
+                                antojo. Con pleno dominio de su forma astral y un gran talento para la anticipación
+                                estratégica, siempre va eones por delante de los movimientos de sus enemigos.</p>
+                            <button class="fondoDivAgente quitarBordesBoton"
+                                onmousedown="elegirSonido('audios/Voz de Astra en Español (España) _ VALORANT (Episodio 4, Acto II) (1) (mp3cut.net).mp3')"><i
+                                    class="bi-volume-up letrasBlancasGenerales icono"></i></iconify-icon></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tamanoDividirMovil">
+
+
+        </div>
+        <div class="row">
+            <div class="col-md-6  d-flex justify-content-center">
+                <div class="row TamanoTextoHabilidades d-flex align-items-center justify-content-center">
+                    <h1 class="utilizarFuente letrasBlancasGenerales  margenFuera pb-3 pr-2">HABILIDADES ESPECIALES</h1>
+                    <div class="row d-flex justify-content-between pb-4">
+                        <button
+                            onClick="videos2('videos/RIFT21_Astra_Ability_Q.mp4','Coloca estrellas en Forma astral (X). ACTIVA una estrella para detonar un Pulso nova. El Pulso nova se carga brevemente y explota, lo que aturde a todos los jugadores en la zona.','Q - Pulso nova','textoMorado')"
+                            class="btn fondoDivAgente border-light hvr-shutter-out-horizontalASTRA"><img
+                                src="imagenes/habilidadesAstra/Astra_Ability_Icons_Q_NovaPulsev2.png"
+                                class="tamanoImagenHabilidad" alt=""></button>
+                        <button
+                            onClick="videos2('videos/RIFT21_Astra_Ability_E_F.mp4','Coloca estrellas en Forma astral (X). ACTIVA una estrella para transformarla en una Nebulosa (humo). Usa (F) en una estrella para disiparla, lo que recupera la estrella para poder volver a colocarla tras un tiempo. Disipar una estrella crea una breve Nebulosa falsa en su ubicación antes de recuperarla.','E - Nebulosa','textoMorado')"
+                            class="btn fondoDivAgente border-light hvr-shutter-out-horizontalASTRA"><img
+                                src="imagenes/habilidadesAstra/Astra_Ability_Icons_E_Nebulav2.png"
+                                class="tamanoImagenHabilidad" alt=""></button>
+                        <button
+                            onClick="videos2('videos/RIFT21_Astra_Ability_C.mp4', 'Coloca estrellas en Forma astral (X). ACTIVA una estrella para crear un Pozo gravitatorio. Atrae hacia el centro a todos los jugadores en la zona antes de que explote, lo que causa que todos los jugadores atrapados en el interior se vuelvan frágiles.','C - Pozo gravitatorio','textoMorado')"
+                            class="btn fondoDivAgente border-light hvr-shutter-out-horizontalASTRA"><img
+                                src="imagenes/habilidadesAstra/Astra_Ability_Icons_C_GravityWellv2.png"
+                                class="tamanoImagenHabilidad" alt=""></button>
+                        <button
+                            onClick="videos2('videos/RIFT21_Astra_Ability_ULT.mp4','ACTIVA (X) para entrar en Forma astral y poder colocar estrellas con el DISPARO PRINCIPAL. Las estrellas se pueden reactivar más tarde para transformarlas en un Pulso nova, una Nebulosa o un Pozo gravitatorio. Cuando Separación cósmica está cargada, usa el DISPARO SECUNDARIO en Forma astral para empezar a apuntar y, a continuación, el DISPARO PRINCIPAL para elegir dos ubicaciones. Se creará una Separación cósmica infinita que conecte los dos puntos. Separación cósmica bloquea las balas y atenúa en gran medida los sonidos.','X - Forma astral / Separación cósmica','textoMorado')"
+                            class="btn fondoDivAgente border-light hvr-shutter-out-horizontalASTRA"><img
+                                src="imagenes/habilidadesAstra/Astra_Ability_Icons_X_CosmicDividev2.png"
+                                class="tamanoImagenHabilidad" alt=""></button>
+                    </div>
+                    <div id="textoHabilidadesMovil" class="pl-2">
+                        <h2 class="pruebaFuente textoMorado">Q - Pulso nova</h2>
+                        <p class="utilizarFuente letrasBlancasGenerales tamanoFuentePAgentes pruebaFuente pb-5">Coloca
+                            estrellas en Forma astral (X). ACTIVA una estrella para detonar un Pulso nova. El Pulso nova
+                            se carga brevemente y explota, lo que aturde a todos los jugadores en la zona.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6  d-flex justify-content-center pb-4" id="videosHabilidadesMovil">
+                <video src="videos/RIFT21_Astra_Ability_Q.mp4" class="tamanoVideoHabilidadesMovil" autoplay loop
+                    muted></video>
+            </div>
+        </div>
+    </div>
+    <!--FIN DIV MOVIL--><!--FIN DIV MOVIL--><!--FIN DIV MOVIL--><!--FIN DIV MOVIL-->
+    <div class="separacionAgentes fondoDivAgente"></div>
+    <footer class="bg-dark text-center text-white text-lg-start">
+        <div class="container p-4">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <p>
+                        <i class="bi-envelope"></i> danigb2904@gmail.com
+                    </p>
+                    <p>
+                        <i class="bi-instagram"></i> daanii_99
+                    </p>
+                    <p>
+                        <i class="bi-twitter"></i> daanii_gomez29
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="text-center bg-dark text-light p-3 border-top" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2023 Copyright:
+            <a class="text-light" href="#">Daniel Gómez Benítez</a>
+        </div>
+    </footer>
+</body>
+
+</html>

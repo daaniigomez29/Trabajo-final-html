@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agentes</title>
+    <link rel="shortcut icon" href="imagenes/Logo.png">
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
+
+    <script src="bootstrap-4.0.0-dist/js/jquery-3.6.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/cssIndex.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+<script src="javascript/animacionTexto.js" defer></script>
+<script src="javascript/animacionTextoMovil.js" defer></script>
+<script src="javascript/scroll.js"></script>
+<script src="javascript/videosAgentesJS.js"></script>
+<script src="javascript/audiosPersonajes.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+<body onLoad="scrollToPorcentaje(32)">
+    <nav class="navbar navbar-expand-md navbar-light bg-dark sticky-top">
+        <a class="navbar-brand" href="index.html"><img class="imagenLogoRoja" src="imagenes/Logo.png" alt=""></a>
+        <button class="navbar-toggler bg-danger" type="button" data-toggle="collapse" data-target="#nav1"
+            aria-controls="nav1" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav1">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item m-2">
+                    <a class="nav-link text-white hvr-underline-from-center" href="agentes.html">
+                        Agentes
+                    </a>
+                </li>
+                <li class="nav-item m-2">
+                    <a class="nav-link text-white hvr-underline-from-center" href="armas.html">
+                        Armas
+                    </a>
+                </li>
+                <li class="nav-item m-2">
+                    <a class="nav-link text-white hvr-underline-from-center" href="formulario.html">
+                        Formulario
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+      <div class="container-fluid container-expand-md alturaDivPagAgentes d-none d-sm-block">
+        <div class="row pt-5">
+            <div class="col d-flex justify-content-center paddingFuera ">
+            <h1 class="utilizarFuente letrasBlancasGenerales h1AGENTES margenFuera" id="texto">ELIGE A UN AGENTE</h1>
+            </div>
+        </div>
+        <div class="container">
+        <div class="row rowAgentes w-100 d-flex align-items-end">
+            <div class="col-md-1 col-3 border border-light paddingFuera hvr-reveal">
+                <a href="astra.html" ><img src="imagenes/Astra.webp" class="iconoAgentes "></a>
+            </div>
+            
+            <div class="col-md-1  col-3 col-3 border border-light h-50 hvr-reveal paddingFuera">
+                <a href="breach.html" ><img src="imagenes/breach.webp" class="iconoAgentes"></a>
+            </div>
+
+            <div class="col-md-1  col-3 col-3 border border-light  hvr-reveal paddingFuera h-50">
+                <a href="brimstone.html" ><img src="imagenes/brimstone.webp" class="iconoAgentes"></a>
+            </div>
+
+            <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                <a href="chamber.html" ><img src="imagenes/chamber.webp" class="iconoAgentes"></a>
+            </div>
+
+            <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                <a href="cypher.html" ><img src="imagenes/cypher.webp" class="iconoAgentes"></a>
+            </div>
+
+            <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                <a href="fade.html" ><img src="imagenes/fade.webp" class="iconoAgentes"></a>
+            </div>
+
+            <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                <a href="gekko.html" ><img src="imagenes/gekko.webp" class="iconoAgentes"></a>
+            </div>
+            
+            <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                <a href="harbor.html" ><img src="imagenes/harbor.webp" class="iconoAgentes"></a>
+            </div>
+
+            <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                <a href="jett.html" ><img src="imagenes/jett.webp" class="iconoAgentes"></a>
+            </div>
+
+            <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                <a href="kayo.html" ><img src="imagenes/kayo.webp" class="iconoAgentes"></a>
+            </div>
+
+            <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                <a href="killjoy.html" ><img src="imagenes/killjoy.webp" class="iconoAgentes"></a>
+            </div>
+
+            <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                <a href="neon.html" ><img src="imagenes/Neon.webp" class="iconoAgentes"></a>
+            </div> 
+        </div>
+
+
+        <div class="row rowAgentes w-100 d-flex align-items-start">
+            <div class="col-md-1 col-3 border border-light h-50 hvr-reveal paddingFuera">
+                <a href="omen.html" ><img src="imagenes/omen.webp" class="iconoAgentes"></a>
+            </div>
+            
+            <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                <a href="phoenix.html" ><img src="imagenes/phoenix.webp" class="iconoAgentes"></a>
+            </div>
+
+            <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                <a href="raze.html" ><img src="imagenes/raze.webp" class="iconoAgentes"></a>
+            </div>
+
+            <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                <a href="reyna.html" ><img src="imagenes/reyna.webp" class="iconoAgentes"></a>
+            </div>
+
+            <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                <a href="sage.html" ><img src="imagenes/sage.webp" class="iconoAgentes"></a>
+            </div>
+
+            <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                <a href="skye.html" ><img src="imagenes/skye.webp" class="iconoAgentes"></a>
+            </div>
+
+            <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                <a href="sova.html" ><img src="imagenes/sova.webp" class="iconoAgentes"></a>
+            </div>
+            
+            <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                <a href="viper.html" ><img src="imagenes/viper.webp" class="iconoAgentes"></a>
+            </div>
+
+            <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                <a href="yoru.html" ><img src="imagenes/yoru_valorant_icon_3284.webp" class="iconoAgentes"></a>
+            </div>
+        </div>
+
+    </div>
+
+      </div>
+
+<!--INICIO DIV MOVIL--><!--INICIO DIV MOVIL--><!--INICIO DIV MOVIL--><!--INICIO DIV MOVIL--><!--INICIO DIV MOVIL--><!--INICIO DIV MOVIL-->
+      <div class="container-fluid container-expand-md alturaDivPagAgentes d-block d-sm-none">
+        <div class="row">
+            <div class="col d-flex justify-content-center paddingFuera">
+            <h1 class="utilizarFuente letrasBlancasGenerales h1AGENTES margenFuera" id="textoMovilAgentes">ELIGE A UN AGENTE</h1>
+            </div>
+        </div>
+        <div class="container">
+        <div class="row rowAgentes w-100 d-flex align-items-end">
+            <div class="col-md-1 col-3 border border-light paddingFuera hvr-reveal">
+                <a href="astra.html" ><img src="imagenes/Astra.webp" class="iconoAgentes "></a>
+            </div>
+            
+            <div class="col-md-1  col-3 col-3 border border-light h-50 hvr-reveal paddingFuera">
+                <a href="breach.html" ><img src="imagenes/breach.webp" class="iconoAgentes"></a>
+            </div>
+
+            <div class="col-md-1  col-3 col-3 border border-light  hvr-reveal paddingFuera h-50">
+                <a href="brimstone.html" ><img src="imagenes/brimstone.webp" class="iconoAgentes"></a>
+            </div>
+
+            <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                <a href="chamber.html" ><img src="imagenes/chamber.webp" class="iconoAgentes"></a>
+            </div>
+
+            <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                <a href="cypher.html" ><img src="imagenes/cypher.webp" class="iconoAgentes"></a>
+            </div>
+
+            <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                <a href="fade.html" ><img src="imagenes/fade.webp" class="iconoAgentes"></a>
+            </div>
+
+            <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                <a href="gekko.html" ><img src="imagenes/gekko.webp" class="iconoAgentes"></a>
+            </div>
+            
+            <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                <a href="harbor.html" ><img src="imagenes/harbor.webp" class="iconoAgentes"></a>
+            </div>
+        </div>
+
+
+        <div class="row rowAgentes w-100 d-flex align-items-start">
+            <div class="col-md-1 col-3 border border-light h-50 hvr-reveal paddingFuera">
+                <a href="omen.html" ><img src="imagenes/omen.webp" class="iconoAgentes"></a>
+            </div>
+            
+            <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                <a href="phoenix.html" ><img src="imagenes/phoenix.webp" class="iconoAgentes"></a>
+            </div>
+
+            <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                <a href="raze.html" ><img src="imagenes/raze.webp" class="iconoAgentes"></a>
+            </div>
+
+            <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                <a href="reyna.html" ><img src="imagenes/reyna.webp" class="iconoAgentes"></a>
+            </div>
+
+            <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                <a href="sage.html" ><img src="imagenes/sage.webp" class="iconoAgentes"></a>
+            </div>
+
+            <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                <a href="skye.html" ><img src="imagenes/skye.webp" class="iconoAgentes"></a>
+            </div>
+
+            <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                <a href="sova.html" ><img src="imagenes/sova.webp" class="iconoAgentes"></a>
+            </div>
+            
+            <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                <a href="viper.html" ><img src="imagenes/viper.webp" class="iconoAgentes"></a>
+            </div>
+
+            <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                <a href="yoru.html" ><img src="imagenes/yoru_valorant_icon_3284.webp" class="iconoAgentes"></a>
+            </div>
+            <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                <a href="jett.html" ><img src="imagenes/jett.webp" class="iconoAgentes"></a>
+            </div>
+            <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                <a href="kayo.html" ><img src="imagenes/kayo.webp" class="iconoAgentes"></a>
+            </div>
+            <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                <a href="killjoy.html" ><img src="imagenes/killjoy.webp" class="iconoAgentes"></a>
+            </div>
+            <div class="col-md-1  col-3 border border-light hvr-reveal paddingFuera h-50">
+                <a href="neon.html" ><img src="imagenes/Neon.webp" class="iconoAgentes"></a>
+            </div>
+        </div>
+
+    </div>
+
+      </div>
+<!--FIN DIV MOVIL--><!--FIN DIV MOVIL--><!--FIN DIV MOVIL--><!--FIN DIV MOVIL-->
+      
+      <div class="container-fluid fondoDivAgente d-none d-sm-block">
+        <div class="row">
+            <div class="col-md-6 d-flex justify-content-center">
+                <img src="imagenes/sova.png" class="tamanoImagenAgente pt-4" alt="">
+            </div>
+            <div class="col-md-6">
+                <div class="row d-flex justify-content-center align-items-end h-25">
+                    <h1 class="utilizarFuente letrasBlancasGenerales tamanoFuenteAgentes margenFuera pl-4">SOVA</h1>
+                </div> 
+                <div class="row  d-flex justify-content-center align-items-start ">
+                    <h1 class="utilizarFuente letrasBlancasGenerales tamanoTipoAgentes pr-1">INICIADOR</h1>
+                    <img class="tamanoImagenTipo " src="imagenes/Initiator.png" alt="">
+                </div>
+                <div class="row d-flex justify-content-center">
+                <div class="row d-flex justify-content-center tamanoRowTextoAgente pl-5 pt-2">
+                    <div class="col-md-12 pl-5">
+                    <p class="utilizarFuente letrasBlancasGenerales tamanoFuentePAgentes pruebaFuente">Nacido en el eterno invierno de la tundra rusa, Sova destaca a la hora de localizar, perseguir y eliminar a los enemigos con una eficiencia y una precisión inclementes. Su arco personalizado junto con su sobrenatural capacidad de rastreamiento hacen que sea imposible escapar.</p>
+                 <button class="fondoDivAgente quitarBordesBoton" onmousedown="elegirSonido('audios/VALORANT_ Todas las frases de Sova en Español (mp3cut.net).mp3')"><i class="bi-volume-up letrasBlancasGenerales icono"></i></iconify-icon></button>
+                </div>
+                </div> 
+            </div>              
+            </div>           
+        </div>
+        <div class="tamanoDividir">
+
+
+        </div>
+        <div class="row">
+            <div class="col-md-6  d-flex justify-content-center">
+                <div class="row  TamanoTextoHabilidades d-flex align-items-center justify-content-center">
+                    <h1 class="utilizarFuente letrasBlancasGenerales  margenFuera tamano pl-4 pb-3">HABILIDADES ESPECIALES</h1>
+                    <div class="row w-75 d-flex justify-content-between">
+                        <button onClick="videos('videos/Sova_Q_v001_web.mp4','EQUIPA un arco con una flecha explosiva. DISPARAD para lanzar la flecha explosiva hacia delante. Explotará cuando impacte e infligirá daño a los enemigos cercanos. MANTENED PULSADO para ampliar su alcance. ALTERNAD EL MODO DE DISPARO para añadir hasta dos rebotes a la flecha.','Q - FLECHA EXPLOSIVA','textoSova')" class="btn fondoDivAgente border-light hvr-shutter-out-horizontalSOVA"><img src="imagenes/habilidadesSova/TX_Sova_Q.png" class="tamanoImagenHabilidad" alt=""></button>
+                        <button onClick="videos('videos/Sova_E_v001_web.mp4','EQUIPA un arco con un proyectil de reconocimiento. DISPARAD para enviar el proyectil hacia delante. Se activará cuando impacte y revelará la posición de los enemigos que se encuentren en la línea de visión del proyectil. MANTENED PULSADO para ampliar su alcance. ALTERNAD EL MODO DE DISPARO para añadir hasta dos rebotes a la flecha.','E - PROYECTIL DE RECONOCIMIENTO','textoSova')" class="btn fondoDivAgente border-light hvr-shutter-out-horizontalSOVA"><img src="imagenes/habilidadesSova/TX_Sova_E.png" class="tamanoImagenHabilidad" alt=""></button>    
+                        <button onClick="videos('videos/Sova_C_v001_web.mp4', 'EQUIPA un dron de reconocimiento. DISPARAD para desplegar el dron y controlar su movimiento. Cuando tengáis control del dron, DISPARAD para lanzar un dardo marcador que revelará la ubicación de cualquier jugador alcanzado.','C - DRON DE RECONOCIMIENTO','textoSova')" class="btn fondoDivAgente border-light hvr-shutter-out-horizontalSOVA"><img src="imagenes/habilidadesSova/TX_Sova_C.png" class="tamanoImagenHabilidad" alt=""></button>    
+                        <button onClick="videos('videos/Sova_X_v001_web.mp4','EQUIPA un arco con tres proyectiles de energía de largo alcance que atraviesan paredes. DISPARAD para lanzar un proyectil de energía en línea recta frente a Sova que infligirá daño y revelará la posición de los enemigos que se encuentren a su paso. Esta habilidad puede VOLVERSE A USAR hasta dos veces más mientras el temporizador de la habilidad esté activo.','X - FURIA DEL CAZADOR','textoSova')" class="btn fondoDivAgente border-light hvr-shutter-out-horizontalSOVA"><img src="imagenes/habilidadesSova/TX_Sova_X.png" class="tamanoImagenHabilidad" alt=""></button>    
+                </div>
+                <div id="textoHabilidades">
+                    <h2 class="pruebaFuente textoSova">Q - FLECHA EXPLOSIVA</h2>
+                    <p class="utilizarFuente letrasBlancasGenerales tamanoFuentePAgentes pruebaFuente pb-5">EQUIPA un arco con una flecha explosiva. DISPARAD para lanzar la flecha explosiva hacia delante. Explotará cuando impacte e infligirá daño a los enemigos cercanos. MANTENED PULSADO para ampliar su alcance. ALTERNAD EL MODO DE DISPARO para añadir hasta dos rebotes a la flecha.</p>
+                </div>   
+            </div>
+            </div>
+            <div class="col-md-6  d-flex justify-content-center pb-4" id="videosHabilidades">
+                <video src="videos/Sova_Q_v001_web.mp4" class="tamanoVideoHabilidades" autoplay loop muted></video>
+            </div>
+        </div>
+      </div>
+
+
+<!--INICIO DIV MOVIL--><!--INICIO DIV MOVIL--><!--INICIO DIV MOVIL--><!--INICIO DIV MOVIL--><!--INICIO DIV MOVIL--><!--INICIO DIV MOVIL-->
+      <div class="container-fluid fondoDivAgente d-block d-sm-none">
+        <div>
+            <div class="col-md-6 d-flex justify-content-center">
+                <img src="imagenes/sova.png" class="tamanoImagenAgente pt-4" alt="">
+            </div>
+            <div class="col-md-6">
+                <div class="row d-flex justify-content-center align-items-end h-25">
+                    <h1 class="utilizarFuente letrasBlancasGenerales tamanoFuenteAgentes margenFuera ">SOVA</h1>
+                </div> 
+                <div class="row  d-flex justify-content-center align-items-start ">
+                    <h1 class="utilizarFuente letrasBlancasGenerales tamanoTipoAgentes pt-2 ">INICIADOR</h1>
+                    <img class="tamanoImagenTipo " src="imagenes/Initiator.png" alt="">
+                </div>
+                <div class="row d-flex justify-content-center">
+                <div class="row d-flex justify-content-center tamanoRowTextoAgente pt-2">
+                    <div class="col-12">
+                        <p class="utilizarFuente letrasBlancasGenerales tamanoFuentePAgentes pruebaFuente">Nacido en el eterno invierno de la tundra rusa, Sova destaca a la hora de localizar, perseguir y eliminar a los enemigos con una eficiencia y una precisión inclementes. Su arco personalizado junto con su sobrenatural capacidad de rastreamiento hacen que sea imposible escapar.</p>
+                        <button class="fondoDivAgente quitarBordesBoton" onmousedown="elegirSonido('audios/VALORANT_ Todas las frases de Sova en Español (mp3cut.net).mp3')"><i class="bi-volume-up letrasBlancasGenerales icono"></i></iconify-icon></button>
+                    </div>
+                </div> 
+            </div>              
+            </div>           
+        </div>
+        <div class="tamanoDividirMovil">
+
+
+        </div>
+        <div class="row">
+            <div class="col-md-6  d-flex justify-content-center">
+                <div class="row TamanoTextoHabilidades d-flex align-items-center justify-content-center">
+                    <h1 class="utilizarFuente letrasBlancasGenerales  margenFuera pb-3 pr-2">HABILIDADES ESPECIALES</h1>
+                    <div class="row d-flex justify-content-between pb-4">
+                        <button onClick="videos2('videos/Sova_Q_v001_web.mp4','EQUIPA un arco con una flecha explosiva. DISPARAD para lanzar la flecha explosiva hacia delante. Explotará cuando impacte e infligirá daño a los enemigos cercanos. MANTENED PULSADO para ampliar su alcance. ALTERNAD EL MODO DE DISPARO para añadir hasta dos rebotes a la flecha.','Q - FLECHA EXPLOSIVA','textoSova')" class="btn fondoDivAgente border-light hvr-shutter-out-horizontalSOVA"><img src="imagenes/habilidadesSova/TX_Sova_Q.png" class="tamanoImagenHabilidad" alt=""></button>
+                        <button onClick="videos2('videos/Sova_E_v001_web.mp4','EQUIPA un arco con un proyectil de reconocimiento. DISPARAD para enviar el proyectil hacia delante. Se activará cuando impacte y revelará la posición de los enemigos que se encuentren en la línea de visión del proyectil. MANTENED PULSADO para ampliar su alcance. ALTERNAD EL MODO DE DISPARO para añadir hasta dos rebotes a la flecha.','E - PROYECTIL DE RECONOCIMIENTO','textoSova')" class="btn fondoDivAgente border-light hvr-shutter-out-horizontalSOVA"><img src="imagenes/habilidadesSova/TX_Sova_E.png" class="tamanoImagenHabilidad" alt=""></button>    
+                        <button onClick="videos2('videos/Sova_C_v001_web.mp4', 'EQUIPA un dron de reconocimiento. DISPARAD para desplegar el dron y controlar su movimiento. Cuando tengáis control del dron, DISPARAD para lanzar un dardo marcador que revelará la ubicación de cualquier jugador alcanzado.','C - DRON DE RECONOCIMIENTO','textoSova')" class="btn fondoDivAgente border-light hvr-shutter-out-horizontalSOVA"><img src="imagenes/habilidadesSova/TX_Sova_C.png" class="tamanoImagenHabilidad" alt=""></button>    
+                        <button onClick="videos2('videos/Sova_X_v001_web.mp4','EQUIPA un arco con tres proyectiles de energía de largo alcance que atraviesan paredes. DISPARAD para lanzar un proyectil de energía en línea recta frente a Sova que infligirá daño y revelará la posición de los enemigos que se encuentren a su paso. Esta habilidad puede VOLVERSE A USAR hasta dos veces más mientras el temporizador de la habilidad esté activo.','X - FURIA DEL CAZADOR','textoSova')" class="btn fondoDivAgente border-light hvr-shutter-out-horizontalSOVA"><img src="imagenes/habilidadesSova/TX_Sova_X.png" class="tamanoImagenHabilidad" alt=""></button>    
+                     </div>
+                <div id="textoHabilidadesMovil" class="pl-2">
+                    <h2 class="pruebaFuente textoSova">Q - FLECHA EXPLOSIVA</h2>
+                    <p class="utilizarFuente letrasBlancasGenerales tamanoFuentePAgentes pruebaFuente pb-5">EQUIPA un arco con una flecha explosiva. DISPARAD para lanzar la flecha explosiva hacia delante. Explotará cuando impacte e infligirá daño a los enemigos cercanos. MANTENED PULSADO para ampliar su alcance. ALTERNAD EL MODO DE DISPARO para añadir hasta dos rebotes a la flecha.</p>
+                </div>   
+            </div>
+            </div>
+            <div class="col-md-6  d-flex justify-content-center pb-4" id="videosHabilidadesMovil">
+                <video src="videos/Sova_Q_v001_web.mp4" class="tamanoVideoHabilidadesMovil" autoplay loop muted></video>
+            </div>
+        </div>
+      </div>
+<!--FIN DIV MOVIL--><!--FIN DIV MOVIL--><!--FIN DIV MOVIL--><!--FIN DIV MOVIL-->
+<div class="separacionAgentes fondoDivAgente"></div>
+<footer class="bg-dark text-center text-white text-lg-start">
+    <div class="container p-4">
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <p>
+            <i class="bi-envelope"></i> danigb2904@gmail.com
+          </p>
+          <p>
+            <i class="bi-instagram"></i> daanii_99
+          </p>
+          <p>
+            <i class="bi-twitter"></i> daanii_gomez29
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="text-center bg-dark text-light p-3 border-top" style="background-color: rgba(0, 0, 0, 0.2);">
+       © 2023 Copyright:
+      <a class="text-light" href="#">Daniel Gómez Benítez</a>
+    </div>
+  </footer>
+</body>
+</html>
